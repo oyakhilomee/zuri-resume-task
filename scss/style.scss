@@ -5,6 +5,7 @@ html {
 
  body {
     background-color:rgb(243, 236, 236);
+    font-family: 'Roboto', sans-serif;
 }
 
 #container {
@@ -14,30 +15,48 @@ html {
 
 
 header {
-    background-color: gold;
+    // background-color: gold;
     height: 30vmin;    
 }
 
+.img-div {
+    display: flex;
+    justify-content: center;
+}
 
 
 #about-profile {
-    background-color: blue;
+    // background-color: blue;
     height: 17vmin;
     margin-top: 30px;    
+    margin-bottom: 130px;
+    @media screen and (min-width: 768px){
+        margin-bottom: 0;
+        }
 }
 
 
 .name-contact-section{
-    display: flex;
-    justify-content: space-around;
+ text-align: center;
+ @media screen and (min-width: 768px){
+        display: flex;
+        justify-content: space-around;
+        text-align: start;
+}
 }
 
 .parent-about-profile-div {
-    display: flex;
-    height: inherit;
+    
+    // background-color: rgb(185, 184, 184);
+    @media screen and (min-width:768px) {
+        display: flex;
+        height: inherit;        
+    }
     .about-left{
+        display: flex;
         width: 25%;
-        background-color: ivory;
+        // background-color: ivory;
+        
     }
     .about-right {
         width: 75%;
@@ -47,18 +66,24 @@ header {
 }
 
 #education {
-    background-color: green;
+    // background-color: rgb(192, 191, 209);
     height: 25vmin;   
     margin-top: 30px; 
+    margin-bottom: 170px;
+    @media screen and (min-width: 768px){
+    margin-bottom: 0;
+    }
 }
 
 .education-parent-div {
-    display: flex;
-    // height: inherit;
+    @media screen and (min-width:768px) {
+        display: flex;
+        height: inherit;        
+    }
     .education-left {
         width: 25%;
         // height: inherit;
-        background-color: crimson;
+        // background-color: crimson;
     }
     .education-right {
         width: 75%;
@@ -67,7 +92,7 @@ header {
 
 
 #experience  {
-    background-color: red;
+    // background-color: red;
     height: 70vmin;
     margin-top: 60px;
 }
@@ -77,7 +102,7 @@ header {
     display: flex;
     .company-one-left {
         width: 25%;
-        background-color: yellow;
+        // background-color: yellow;
     }
     .company-one-right {
         width: 75%;
@@ -90,7 +115,7 @@ header {
     margin-top: 15px;
     .company-two-left {
         width: 25%;
-        background-color: brown;
+        // background-color: brown;
     }
     .company-two-right {
         width: 60%;
@@ -102,7 +127,7 @@ header {
     margin-top: 15px;
     .company-three-left {
         width: 25%;
-        background-color: cornflowerblue;
+        // background-color: cornflowerblue;
     }
     .company-three-right {
         width: 60%;

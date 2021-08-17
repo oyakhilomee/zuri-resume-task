@@ -5,6 +5,7 @@ html {
 
 body {
   background-color: #f3ecec;
+  font-family: 'Roboto', sans-serif;
 }
 
 #container {
@@ -13,34 +14,59 @@ body {
 }
 
 header {
-  background-color: gold;
   height: 30vmin;
 }
 
+.img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #about-profile {
-  background-color: blue;
   height: 17vmin;
   margin-top: 30px;
+  margin-bottom: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  #about-profile {
+    margin-bottom: 0;
+  }
 }
 
 .name-contact-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  text-align: center;
 }
 
-.parent-about-profile-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: inherit;
+@media screen and (min-width: 768px) {
+  .name-contact-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .parent-about-profile-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: inherit;
+  }
 }
 
 .parent-about-profile-div .about-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 25%;
-  background-color: ivory;
 }
 
 .parent-about-profile-div .about-right {
@@ -48,20 +74,28 @@ header {
 }
 
 #education {
-  background-color: green;
   height: 25vmin;
   margin-top: 30px;
+  margin-bottom: 170px;
 }
 
-.education-parent-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 768px) {
+  #education {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .education-parent-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: inherit;
+  }
 }
 
 .education-parent-div .education-left {
   width: 25%;
-  background-color: crimson;
 }
 
 .education-parent-div .education-right {
@@ -69,7 +103,6 @@ header {
 }
 
 #experience {
-  background-color: red;
   height: 70vmin;
   margin-top: 60px;
 }
@@ -82,7 +115,6 @@ header {
 
 .company-one-div .company-one-left {
   width: 25%;
-  background-color: yellow;
 }
 
 .company-one-div .company-one-right {
@@ -98,7 +130,6 @@ header {
 
 .company-two-div .company-two-left {
   width: 25%;
-  background-color: brown;
 }
 
 .company-two-div .company-two-right {
@@ -114,7 +145,6 @@ header {
 
 .company-three-div .company-three-left {
   width: 25%;
-  background-color: cornflowerblue;
 }
 
 .company-three-div .company-three-right {
