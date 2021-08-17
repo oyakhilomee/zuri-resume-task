@@ -1,26 +1,29 @@
-body {
+html {
     padding: 0;
     margin: 0;
  }
 
+ body {
+    background-color:rgb(243, 236, 236);
+}
 
 #container {
     width: 95%;
     margin: 0 auto;
-
 }
 
 
 header {
     background-color: gold;
-    // height: 200px;    
+    height: 30vmin;    
 }
 
 
 
 #about-profile {
     background-color: blue;
-    // height: 200px;    
+    height: 17vmin;
+    margin-top: 30px;    
 }
 
 
@@ -45,15 +48,16 @@ header {
 
 #education {
     background-color: green;
-    // height: 200px;    
+    height: 25vmin;   
+    margin-top: 30px; 
 }
 
 .education-parent-div {
     display: flex;
-    height: inherit;
+    // height: inherit;
     .education-left {
         width: 25%;
-        height: inherit;
+        // height: inherit;
         background-color: crimson;
     }
     .education-right {
@@ -64,6 +68,8 @@ header {
 
 #experience  {
     background-color: red;
+    height: 70vmin;
+    margin-top: 60px;
 }
 
 
@@ -81,6 +87,7 @@ header {
 
 .company-two-div{
     display: flex;
+    margin-top: 15px;
     .company-two-left {
         width: 25%;
         background-color: brown;
@@ -92,6 +99,7 @@ header {
 
 .company-three-div{
     display: flex;
+    margin-top: 15px;
     .company-three-left {
         width: 25%;
         background-color: cornflowerblue;

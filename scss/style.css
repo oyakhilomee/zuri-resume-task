@@ -1,6 +1,10 @@
-body {
+html {
   padding: 0;
   margin: 0;
+}
+
+body {
+  background-color: #f3ecec;
 }
 
 #container {
@@ -10,10 +14,13 @@ body {
 
 header {
   background-color: gold;
+  height: 30vmin;
 }
 
 #about-profile {
   background-color: blue;
+  height: 17vmin;
+  margin-top: 30px;
 }
 
 .name-contact-section {
@@ -42,18 +49,18 @@ header {
 
 #education {
   background-color: green;
+  height: 25vmin;
+  margin-top: 30px;
 }
 
 .education-parent-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: inherit;
 }
 
 .education-parent-div .education-left {
   width: 25%;
-  height: inherit;
   background-color: crimson;
 }
 
@@ -63,6 +70,8 @@ header {
 
 #experience {
   background-color: red;
+  height: 70vmin;
+  margin-top: 60px;
 }
 
 .company-one-div {
@@ -84,6 +93,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 15px;
 }
 
 .company-two-div .company-two-left {
@@ -99,6 +109,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 15px;
 }
 
 .company-three-div .company-three-left {
