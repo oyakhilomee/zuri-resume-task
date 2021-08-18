@@ -12,4 +12,4 @@ This is the repository containing my HNG-Zuri stage two(2) task.
 
 # Snapshot of the Program and Resume
 
-![Snapshot](oyasknows.gif)
+![Snapshot](screengif.gif)
