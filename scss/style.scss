@@ -1,135 +1,124 @@
 html {
-    padding: 0;
-    margin: 0;
- }
+  padding: 0;
+  margin: 0;
+}
 
- body {
-    background-color:rgb(243, 236, 236);
-    font-family: 'Roboto', sans-serif;
+body {
+  background-color: rgb(243, 236, 236);
+  font-family: "Roboto", sans-serif;
 }
 
 #container {
-    width: 95%;
-    margin: 0 auto;
+  width: 95%;
+  margin: 0 auto;
 }
 
-
 header {
-    // background-color: gold;
-    height: 30vmin;    
+  // background-color: gold;
+  height: 30vmin;
 }
 
 .img-div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 
 #about-profile {
-    // background-color: blue;
-    height: 17vmin;
-    margin-top: 30px;    
-    margin-bottom: 130px;
-    @media screen and (min-width: 768px){
-        margin-bottom: 0;
-        }
+  // background-color: blue;
+  height: 17vmin;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
-
-.name-contact-section{
- text-align: center;
- @media screen and (min-width: 768px){
-        display: flex;
-        justify-content: space-around;
-        text-align: start;
-}
+.name-contact-section {
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+  }
 }
 
 .parent-about-profile-div {
-    
-    // background-color: rgb(185, 184, 184);
-    @media screen and (min-width:768px) {
-        display: flex;
-        height: inherit;        
-    }
-    .about-left{
-        display: flex;
-        width: 25%;
-        // background-color: ivory;
-        
-    }
-    .about-right {
-        width: 75%;
-
-    }
-
+  // background-color: rgb(185, 184, 184);
+  @media screen and (min-width: 768px) {
+    display: flex;
+    height: inherit;
+  }
+  .about-left {
+    display: flex;
+    width: 25%;
+    // background-color: ivory;
+  }
+  .about-right {
+    width: 75%;
+  }
 }
 
 #education {
-    // background-color: rgb(192, 191, 209);
-    height: 25vmin;   
-    margin-top: 30px; 
-    margin-bottom: 170px;
-    @media screen and (min-width: 768px){
+  height: 25vmin;
+  margin-top: 30px;
+  margin-bottom: 290px;
+  @media screen and (min-width: 768px) {
     margin-bottom: 0;
-    }
+  }
 }
 
 .education-parent-div {
-    @media screen and (min-width:768px) {
-        display: flex;
-        height: inherit;        
-    }
-    .education-left {
-        width: 25%;
-        // height: inherit;
-        // background-color: crimson;
-    }
-    .education-right {
-        width: 75%;
-    }
-}
-
-
-#experience  {
-    // background-color: red;
-    height: 70vmin;
-    margin-top: 60px;
-}
-
-
-.company-one-div{
+  @media screen and (min-width: 768px) {
     display: flex;
-    .company-one-left {
-        width: 25%;
-        // background-color: yellow;
-    }
-    .company-one-right {
-        width: 75%;
-    }
+    height: inherit;
+  }
+  .education-left {
+    width: 25%;
+    // height: inherit;
+    // background-color: crimson;
+  }
+  .education-right {
+    width: 75%;
+  }
 }
 
-
-.company-two-div{
-    display: flex;
-    margin-top: 15px;
-    .company-two-left {
-        width: 25%;
-        // background-color: brown;
-    }
-    .company-two-right {
-        width: 60%;
-    }
+#experience {
+  // background-color: red;
+  height: 70vmin;
+  margin-top: 60px;
 }
 
-.company-three-div{
-    display: flex;
-    margin-top: 15px;
-    .company-three-left {
-        width: 25%;
-        // background-color: cornflowerblue;
-    }
-    .company-three-right {
-        width: 60%;
-    }
+.company-one-div {
+  display: flex;
+  .company-one-left {
+    width: 25%;
+    // background-color: yellow;
+  }
+  .company-one-right {
+    width: 75%;
+  }
+}
+
+.company-two-div {
+  display: flex;
+  margin-top: 15px;
+  .company-two-left {
+    width: 25%;
+    // background-color: brown;
+  }
+  .company-two-right {
+    width: 60%;
+  }
+}
+
+.company-three-div {
+  display: flex;
+  margin-top: 15px;
+  .company-three-left {
+    width: 25%;
+    // background-color: cornflowerblue;
+  }
+  .company-three-right {
+    width: 60%;
+  }
 }
