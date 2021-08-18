@@ -1,0 +1,153 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f3ecec;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  height: 30vmin;
+}
+
+.img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about-profile {
+  height: 17vmin;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  #about-profile {
+    margin-bottom: 0;
+  }
+}
+
+.name-contact-section {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .name-contact-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .parent-about-profile-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: inherit;
+  }
+}
+
+.parent-about-profile-div .about-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+}
+
+.parent-about-profile-div .about-right {
+  width: 75%;
+}
+
+#education {
+  height: 25vmin;
+  margin-top: 30px;
+  margin-bottom: 290px;
+}
+
+@media screen and (min-width: 768px) {
+  #education {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .education-parent-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: inherit;
+  }
+}
+
+.education-parent-div .education-left {
+  width: 25%;
+}
+
+.education-parent-div .education-right {
+  width: 75%;
+}
+
+#experience {
+  height: 70vmin;
+  margin-top: 60px;
+}
+
+.company-one-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.company-one-div .company-one-left {
+  width: 25%;
+}
+
+.company-one-div .company-one-right {
+  width: 75%;
+}
+
+.company-two-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.company-two-div .company-two-left {
+  width: 25%;
+}
+
+.company-two-div .company-two-right {
+  width: 60%;
+}
+
+.company-three-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.company-three-div .company-three-left {
+  width: 25%;
+}
+
+.company-three-div .company-three-right {
+  width: 60%;
+}
+/*# sourceMappingURL=resume-style.css.map */
